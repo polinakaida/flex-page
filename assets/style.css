@@ -119,3 +119,25 @@ h2 {
 .content-box:last-child {
     background-color: rgb(58, 58, 58);
 }
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 35.2px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+footer p {
+    margin: 0;
+    flex: 1 1 45%;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
