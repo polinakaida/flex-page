@@ -53,7 +53,12 @@ h2 {
     width: 880px;
     max-width: 100%;
     margin: 0 auto;
-    column-count: 2;
+}
+
+.section-a p {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
 }
 
 .section-b {
